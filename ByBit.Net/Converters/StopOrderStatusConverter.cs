@@ -11,6 +11,7 @@ namespace Bybit.Net.Converters
 
         protected override List<KeyValuePair<StopOrderStatus, string>> Mapping => new List<KeyValuePair<StopOrderStatus, string>>
         {
+            new KeyValuePair<StopOrderStatus, string>(StopOrderStatus.Filled, "Filled"),
             new KeyValuePair<StopOrderStatus, string>(StopOrderStatus.Active, "Active"),
             new KeyValuePair<StopOrderStatus, string>(StopOrderStatus.Untriggered, "Untriggered"),
             new KeyValuePair<StopOrderStatus, string>(StopOrderStatus.Triggered, "Triggered"),

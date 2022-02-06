@@ -6,6 +6,11 @@
     public enum StopOrderStatus
     {
         /// <summary>
+        /// ???
+        /// </summary>
+        Filled,
+        /// <summary>
+        /// ??? not final state
         /// Order has been triggered and the new active order has been successfully placed. Is the final state of a successful conditional order
         /// </summary>
         Active,
